@@ -4,7 +4,7 @@ import numpy as np
 import logging
 from mmcv.utils import get_logger
 import pyvista
-from skimage.measure import marching_cubes_lewiner
+#from skimage.measure import marching_cubes_lewiner
 
 
 def get_total_grad_norm(parameters, norm_type=2):
