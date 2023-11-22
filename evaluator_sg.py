@@ -163,7 +163,7 @@ class RelationformerEvaluator(SupervisedEvaluator):
 
     def _accumulate(self):
 
-        @self.on(Events.EPOCH_COMPLETED)
+        # @self.on(Events.EPOCH_COMPLETED)
         def update_cls_sg_metrices(engine: Engine) -> None:
             file_path=None
             if self.mean_recall:
