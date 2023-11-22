@@ -1,12 +1,12 @@
 DATA:
   DIM: 2                  # data dimension
   BATCH_SIZE: 2           # Batch size for a single GPU, could be overwritten by command line argument
-  VG_IMAGES: "../visual_genome_dataset/VG_100K/VG_100K"
-  IM_DATA_FN: "../visual_genome_dataset/stanford_filtered/image_data.json"
-  VG_SGG_FN: "../visual_genome_dataset/stanford_filtered/VG-SGG.h5"
-  LABEL_DATA_DIR: "../visual_genome_dataset/stanford_filtered/VG-SGG-dicts.json"
-  PROPOSAL_FN: "../visual_genome_dataset/stanford_filtered/proposals.h5"
-  FREQ_BIAS: "../visual_genome_dataset/VG.pt"
+  VG_IMAGES: "../../visual_genome_dataset/VG_100K/VG_100K"
+  IM_DATA_FN: "../../visual_genome_dataset/stanford_filtered/image_data.json"
+  VG_SGG_FN: "../../visual_genome_dataset/stanford_filtered/VG-SGG.h5"
+  LABEL_DATA_DIR: "../../visual_genome_dataset/stanford_filtered/VG-SGG-dicts.json"
+  PROPOSAL_FN: "../../visual_genome_dataset/stanford_filtered/proposals.h5"
+  FREQ_BIAS: "../../visual_genome_dataset/VG.pt"
   VG_TEST : True # true:run on test, false: run on validation
   BOX_SCALE: 1024
   IM_SCALE: [592, 592]
